@@ -1,0 +1,134 @@
+
+body{
+  font-family: 'Allerta', sans-serif;
+  margin: 0;
+}
+
+.header{
+  /*Los atributos repetidos están en .contenedor*/
+  position: relative;
+}
+
+.logotipo{
+  display: inline-block;
+}
+
+.portada{
+  background-image:url('imagenes/background.png');
+  color: white;
+  /*Los atributos repretidos están en .contenedor*/
+}
+
+.portada button{
+  margin-bottom: 70px;
+}
+
+.portada h1{
+  margin-left: 20px;
+}
+
+.portada h3{
+  margin-left: 20px;
+}
+
+.menu{
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.menu li{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.menu ul{
+  margin-right: 10px;
+}
+
+button{
+  border-radius: 5px;
+  border: none;
+  background: #fd324e;
+  color: white;
+  padding: 5px;
+}
+
+.titulo{
+  margin-top: 70px;
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+
+.tittle-a{
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.tittle-b{
+  font-size: 50px;
+  margin-bottom: 20px;
+
+}
+
+.guitarras{
+    color: #1F313C;
+    /*Los atributos repetidos están en .contenedor*/
+}
+
+.guitarras h2{
+  font-size: 35px;
+}
+
+.guitarra{
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid #1F313C;
+  border-radius: 8px;
+}
+
+.guitarra ol{
+  padding: 0;
+}
+
+.izquierda{
+  float: left;
+}
+
+.derecha{
+  float: right;
+}
+
+.contenedor-guitarra-a{
+  padding-left: 20px;
+  margin-right: 370px;
+}
+
+.contenedor-guitarra-b{
+
+  margin-left: 370px;
+}
+
+.contenedor{
+  margin: auto;
+  width: 800px;
+}
+
+.contacto{
+  display: block;
+}
+
+.contacto strong{
+  display: block;
+}
+
+.contacto a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer{
+  background: #273b47;
+}
