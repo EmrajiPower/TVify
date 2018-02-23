@@ -16,10 +16,6 @@ $(function() {
     })
   }
 
-  /**
-   * Submit serach form
-   */
-
   $('#app-body')
     .find('form')
     .submit(function (ev) {
